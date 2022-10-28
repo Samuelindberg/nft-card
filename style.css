@@ -1,3 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .nft-card{
-    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   background-color: hsl(216, 50%, 16%);
+    width: 220px;
+    height: 400px;
+    border-radius: 8px;
+    padding-top: 15px;
+}
+.nft-img{
+    width: 195px;
+    border-radius: 5px;
+}
+.text-container{
+    width: 80%;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.title{
+    color: white;
+    font-family: Outfit;
+}
+.text-content{
+    margin-top: 15px;
+    font-family: Outfit;
+    color: #758BAA;
+    font-size: 13px;
+}
+.buy-now-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    font-family: Outfit;
+    font-size: 13px;
+    
+
+}
+.left{
+   display: flex;
+   align-items: center;
+   margin-left: 18px;
+   color:#09FFF8;
+}
+.right{
+    display: flex;
+    align-items: center;
+    margin-right: 18px;
+    color: #9BB1D4;
+}
+.left img{
+    width: 10px;
+    margin-right: 5px;
+}
+.right img{
+    width: 10px;
+    margin-right: 5px;
+}
+.creator{
+    margin-top: 20px;
+    width:85%;
+    border-top: 1px solid #2A3C54;
+    padding-top: 10px;
+}
+.creator img{
+    width:15%
 }
